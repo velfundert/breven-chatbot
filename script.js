@@ -17,7 +17,7 @@ function displayMessage(message) {
     document.getElementById('dialogue').appendChild(div);
 }
 
-var rs = new RiveScript({debug_div: 'debug', debug: true});
+var rs = new RiveScript({utf8: true, debug_div: 'debug', debug: true});
 
 rs.loadFile(['dummy.rive'], on_load_success, on_load_error);
 
