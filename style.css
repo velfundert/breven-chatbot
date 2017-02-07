@@ -1,9 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
 .message,
 .response {
     padding: 1em;
     border-radius: 19px;
     background-color: #999;
-    width: 80%;
+    max-width: 80%;
     display: block;
     margin: 0.1em;
 }
@@ -12,4 +16,70 @@
     color: #fff;
     background-color: #bb0000;
     text-align: right;
+    margin-left: 10%;
+}
+
+.message a {
+    font-weight: bold;
+}
+
+.response a {
+    font-weight: bold;
+    color: #fff;
+}
+
+#header {
+    display: block;
+    background: #fff;
+    position: fixed;
+    border-bottom: solid 1px #E6E6E6;
+    width: 100%;
+    height: 56px;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+body div#header {
+    position: static;
+}
+
+#header h1 {
+    font-size: 1em;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 3em;
+    padding: 1em 0 0 2em;
+    width: 8em;
+    z-index: 901;
+}
+
+body div#header h1 {
+    left: 50%;
+    margin-left: -6.5em;
+    padding: 1em 0 0;
+    width: 13em;
+}
+
+#header h1 .img {
+    display: block;
+    margin: 0 auto;
+}
+.img-digipost-red {
+    background-image: url(digipost-logo-red.svg);
+    width: 125px;
+    height: 30px;
+}
+
+.img {
+    text-indent: -999em;
+}
+.img {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }

@@ -52,6 +52,9 @@ function sendMessage () {
 }
 
 setTimeout(function () {
-    displayResponse(document.createTextNode('Hei! dsfldsjlfjdlgøfgljflkhøjfdlhjfdkljfdlkøj'));
+    displayResponse('Hei, velkommen til Digipost! Det tar et par minutter å registrere seg. Før du begynner er det lurt å hente BankIDen din, for du må logge inn i IDporten.');
 }, 800);
 
+setTimeout(function () {
+    displayResponse('Hva heter du?');
+}, 1500);
