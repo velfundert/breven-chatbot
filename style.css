@@ -1,0 +1,15 @@
+.message,
+.response {
+    padding: 1em;
+    border-radius: 19px;
+    background-color: #999;
+    width: 80%;
+    display: block;
+    margin: 0.1em;
+}
+
+.response {
+    color: #fff;
+    background-color: #bb0000;
+    text-align: right;
+}

@@ -2,9 +2,10 @@
   "name": "breven-chatbot",
   "version": "1.0.0",
   "description": "Breven er din venn i en verden av digitale brev",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Gå til http://localhost:8000\" && python -m SimpleHTTPServer"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/velfundert/breven-chatbot#readme",
   "dependencies": {
+    "jquery": "^3.1.1",
     "rivescript": "^1.17.2"
   }
 }

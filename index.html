@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Digipost Registrering</title>
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="node_modules/rivescript/dist/rivescript.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div><h1>Digipost Registrering</h1></div>
+
+        <hr>
+
+	<legend>Chat Log</legend>
+	<div id="dialogue"></div>
+
+<form onSubmit="return sendMessage()">
+		<table border="0" cellspacing="4" cellpadding="4" width="100%">
+			<tr>
+				<td align="left" valign="middle">
+					<input type="text" size="40" name="message" id="message" autocomplete="off" disabled placeholder="Please wait... loading...">
+				</td>
+				<td width="10" align="center" valign="middle">
+					<input type="submit" value="Send">
+				</td>
+			</tr>
+		</table>
+</form>
+
+<div id="debug"></div>
+    </body>
+</html>
