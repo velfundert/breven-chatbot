@@ -1,5 +1,35 @@
 ! version = 2.0
-! rive-script for registrering i Digipost
 
 + *registrer*
 - Så du vil registrere deg i Digipost? La meg hjelpe deg!
+
++ Godtar ikke vilkaar
+- Du må dessverre godta våre vilkår for å kunne opprette Digipost-konto.
+
++ [*] telefonnummer [*]
+- Vi bruker ditt telefonnummer for å sende deg viktig informasjon knyttet din digitale post.
+
++ [*] epost [*]
+- Du trenger en epost-adresse som vi kan sende deg varsler ved nye brev i Digipost. Dette kan du opprette gratis hos eks: Gmail.com
+
++ [*] bankid [*]
+- BankID brukes for å verifisere din identitet
+
++ [*] har ikke bankid [*] 
+-  Du trenger BankID for å kunne opprette Digipost-konto. Dette for å bekrefte din identitet.
+Kontakt banken din, og de hjelper deg med BankID.
+
++ jeg er[*] (13|14|15)[*](aar|ar)
+- Du må være 16 år for å kunne opprette Digipost-konto
+
++ Hade
+- Hade bra. Ha en fortsatt fin dag!
+
++ Hjelp
+- Ring vår kundeservice, og vi hjelper deg videre. Tlf. 04004
+
++ Ring meg
+- Du kan ringe vår kundeservice på Tlf. 04004
+
++ neeeeei
+- Joda, dette klarer du
