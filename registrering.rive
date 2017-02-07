@@ -3,13 +3,16 @@
 + [*]registrer[*] | [*]registrering[*] | [*]reggistrer[*]
 - Så du vil registrere deg? Flott! Hva er navnet ditt?
 
++ [*]james bond[*]
+- Agentnummer 007 også, eller? Så.. Hva er navnet ditt?
+
 + [*]heter (* *)
 - Takk, jeg har nå notert navnet ditt: <star1>. Hva er e-post-adressen din?
 
 + [*]heter (*)
 - Hmm, men det er jo bare fornavnet ditt, <star1>. Jeg trenger fullt navn!
 
-+ [*] min[*]er (*@*) | (*@*)
++ [*]min[*]epost[*]er | epost[*]er | (*@*)
 - Takk. Vi har nå tatt vare på e-post-adressen din. Det neste du trenger å legge inn er mobilnummeret ditt, åtte siffer, eller begynn ev. med en landskode (eks. +46).
 
 + hvorfor[*]telefonnummer[*] | hvorfor[*]tlf[*] | hvorfor[*]mobil[*]
@@ -24,7 +27,7 @@
 + hva[*]vilkår[*] | hva[*]vilkårene[*] | hva[*]vilkårene
 - Vilkårene finner du <a href="https://www.digipost.no/juridisk/">her</a>. For å godta disse, skriv "Jeg godtar Digipost's vilkår".
 
-+ [*]godta[*]vilkår[*] | [*]godta[*]vilkårene[*]
++ [*]godta[*]vilkår[*] | [*]godta[*]vilkårene[*] | [*]godtar[*]vilkår[*] | [*]godtar[*]vilkårene[*]
 - Flott. Da gjenstår det bare å opprette et passord for din Digipost-konto. Vennligst fortell meg et passord. Lover å ikke si det til noen.. Husk å begynne med "passord:".
 
 + [*] epost [*]
@@ -49,5 +52,14 @@ Kontakt banken din, og de hjelper deg med BankID.
 + [*]passord[*] | [*]passordet[*]
 - Takk. Vi har nå opprettet en Digipost-konto for deg. Er det OK om vi sender deg informasjon om nye produkter og tjenester også?
 
-+ [*]nei[*]|ja[*]send[*]
-- OK! Her kan du logge deg inn: <a href="https://digipost.no">Digipost.no</a>. Du må da også logge inn med BankID ved første innlogging, for å forsikre oss om at du er deg.
++ [*]nei[*]ikke[*]|ja[*]send[*]|ja[*]sende
+- OK! Her kan du logge deg inn: <a href="https://digipost.no">Digipost.no</a>. Du må da også logge inn med BankID ved første innlogging, for å forsikre oss om at du er deg. Forresten, mens vi chatter - er du kunde i KLP, DNB, Skandiabanken, eller Gjensidige?
+
++ [*]dessverre[*]
+- OK, vil du bli varslet når din bank tilbyr Digipost faktura-tjenesten?
+
++ [*]varsle[*]meg[*]
+- Flott. Hvilken bank bruker du?
+
++ [*]bank[*]
+- Supert, da er det registrert.
