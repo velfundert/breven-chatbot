@@ -18,7 +18,7 @@ function displayMessage(message) {
 
 var rs = new RiveScript({utf8: true, debug_div: 'debug', debug: true});
 
-rs.loadFile(['registrering.rive', 'dummy.rive'], on_load_success, on_load_error);
+rs.loadFile(['registrering.rive', 'greetings.rive', 'dummy.rive'], on_load_success, on_load_error);
 
 function on_load_success () {
 	console.log('Loading completed!');
