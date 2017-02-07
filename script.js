@@ -65,13 +65,13 @@ function sendMessage () {
 $('#dialogue').height($('.input').position.top )
 
 setTimeout(function () {
-    displayResponse('Hei, og velkommen til Digipost-registrering! Mitt navn er Breven, og jeg hjelper deg gjerne med å registrere deg i Digipost.');
+    displayResponse('Hei, og velkommen til Digipost-registrering! Mitt navn er Breven, og jeg hjelper deg gjerne med å registrere deg i Digipost. Det tar et par minutter å registrere seg. Før du begynner er det lurt å hente BankIDen din, for du må logge inn i IDporten ved første innlogging.');
 }, 600);
 
-setTimeout(function(){
-    displayResponse('Forresten - Det tar et par minutter å registrere seg. Før du begynner er det lurt å hente BankIDen din, for du må logge inn i IDporten ved første innlogging.');
-}, 2200 + 800 * Math.random());
+// setTimeout(function(){
+//     displayResponse('Forresten - Det tar et par minutter å registrere seg. Før du begynner er det lurt å hente BankIDen din, for du må logge inn i IDporten ved første innlogging.');
+// }, 2200 + 800 * Math.random());
 
 setTimeout(function () {
-    displayResponse('Hva heter du?');
-}, 4000 + 800 * Math.random());
+    displayResponse('Vi kan jo begynne med navnet ditt! - Hva heter du?');
+}, 3000 + 800 * Math.random());
