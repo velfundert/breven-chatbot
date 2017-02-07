@@ -1,0 +1,26 @@
+{
+  "name": "breven-chatbot",
+  "version": "1.0.0",
+  "description": "Breven er din venn i en verden av digitale brev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velfundert/breven-chatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "breven"
+  ],
+  "author": "Digipost Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velfundert/breven-chatbot/issues"
+  },
+  "homepage": "https://github.com/velfundert/breven-chatbot#readme",
+  "dependencies": {
+    "rivescript": "^1.17.2"
+  }
+}
