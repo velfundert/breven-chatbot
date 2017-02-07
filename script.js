@@ -1,9 +1,16 @@
+function adjustDiaogueWindow () {
+    $('#dialogue').height($('.input').position().top - $('#dialogue').position().top);
+}
+
 function createMessageobj (messageNode) {
     var div = $('<div>');
     div.addClass('text');
     div.html( messageNode );
     var div2 = $('<div>');
     div2.append(div);
+
+    adjustDiaogueWindow();
+
     return div2;
 }
 
@@ -54,6 +61,8 @@ function sendMessage () {
 
 	return false;
 }
+
+$('#dialogue').height($('.input').position.top )
 
 setTimeout(function () {
     displayResponse('Hei, velkommen til Digipost! Det tar et par minutter å registrere seg. Før du begynner er det lurt å hente BankIDen din, for du må logge inn i IDporten.');
