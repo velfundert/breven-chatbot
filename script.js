@@ -65,7 +65,7 @@ function sendMessage () {
 $('#dialogue').height($('.input').position.top )
 
 setTimeout(function () {
-    displayResponse('Hei, og velkommen til Digipost-registrering! Mitt navn er Digibot, og jeg hjelper deg gjerne med å registrere deg i Digipost.');
+    displayResponse('Hei, og velkommen til Digipost-registrering! Mitt navn er Breven, og jeg hjelper deg gjerne med å registrere deg i Digipost.');
 }, 600);
 
 setTimeout(function(){
