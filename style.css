@@ -28,6 +28,8 @@ h3 {
 
 .input input {
     outline: none;
+    border: none;
+    background: none;
 }
 
 .breven {
