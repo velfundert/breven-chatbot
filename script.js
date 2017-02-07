@@ -1,11 +1,22 @@
+function adjustDiaogueWindow () {
+    $('#dialogue').height($('.input').position().top - $('#dialogue').position().top);
+}
+
 function createMessageobj (messageNode) {
     var div = $('<div>');
+    div.addClass('text');
     div.html( messageNode );
-    return div;
+    var div2 = $('<div>');
+    div2.append(div);
+
+    adjustDiaogueWindow();
+
+    return div2;
 }
 
 function displayResponse(message) {
     var div = createMessageobj(message);
+    div.append($('<div class="breven">'));
     div.addClass('response');
     $('#dialogue').append(div);
 }
@@ -51,8 +62,10 @@ function sendMessage () {
 	return false;
 }
 
+$('#dialogue').height($('.input').position.top )
+
 setTimeout(function () {
-    displayResponse('Hei, og velkommen til Digipost-registrering! Mitt navn er Digibot, og jeg hjelper deg gjerne med å registrere deg i Digipost.');
+    displayResponse('Hei, og velkommen til Digipost-registrering! Mitt navn er Breven, og jeg hjelper deg gjerne med å registrere deg i Digipost.');
 }, 600);
 
 setTimeout(function(){
