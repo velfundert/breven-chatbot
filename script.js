@@ -18,7 +18,7 @@ function displayMessage(message) {
 
 var rs = new RiveScript({utf8: true, debug_div: 'debug', debug: true});
 
-rs.loadFile(['registrering.rive', 'greetings.rive', 'dummy.rive'], on_load_success, on_load_error);
+rs.loadFile(['registrering.rive', 'greetings.rive', 'rant.rive', 'dummy.rive'], on_load_success, on_load_error);
 
 function on_load_success () {
 	console.log('Loading completed!');
@@ -52,9 +52,13 @@ function sendMessage () {
 }
 
 setTimeout(function () {
-    displayResponse('Hei, velkommen til Digipost! Det tar et par minutter å registrere seg. Før du begynner er det lurt å hente BankIDen din, for du må logge inn i IDporten.');
-}, 800);
+    displayResponse('Hei, og velkommen til Digipost-registrering! Mitt navn er Digibot, og jeg hjelper deg gjerne med å registrere deg i Digipost.');
+}, 600);
+
+setTimeout(function(){
+    displayResponse('Forresten - Det tar et par minutter å registrere seg. Før du begynner er det lurt å hente BankIDen din, for du må logge inn i IDporten ved første innlogging.');
+}, 2200 + 800 * Math.random());
 
 setTimeout(function () {
     displayResponse('Hva heter du?');
-}, 1500);
+}, 4000 + 800 * Math.random());
