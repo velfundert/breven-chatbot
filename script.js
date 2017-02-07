@@ -1,25 +1,24 @@
-function createMessageobj (message) {
-    var div = document.createElement('div');
-    var text = document.createTextNode(message);
-    div.appendChild(text);
+function createMessageobj (messageNode) {
+    var div = $('<div>');
+    div.html( messageNode );
     return div;
 }
 
 function displayResponse(message) {
     var div = createMessageobj(message);
-    div.setAttribute('class', 'response');
-    document.getElementById('dialogue').appendChild(div);
+    div.addClass('response');
+    $('#dialogue').append(div);
 }
 
 function displayMessage(message) {
     var div = createMessageobj(message);
-    div.setAttribute('class', 'message');
-    document.getElementById('dialogue').appendChild(div);
+    div.addClass('message');
+    $('#dialogue').append(div);
 }
 
 var rs = new RiveScript({utf8: true, debug_div: 'debug', debug: true});
 
-rs.loadFile(['registrering.rive', 'registrering.rive'], on_load_success, on_load_error);
+rs.loadFile(['registrering.rive', 'dummy.rive'], on_load_success, on_load_error);
 
 function on_load_success () {
 	console.log('Loading completed!');
@@ -32,8 +31,7 @@ function on_load_success () {
 }
 
 function on_load_error (err) {
-	alert('is explode: ' + err);
-    console.log(err);
+    console.log('is explode: ', err);
 }
 
 function sendMessage () {
@@ -54,6 +52,6 @@ function sendMessage () {
 }
 
 setTimeout(function () {
-    displayResponse('Hei! dsfldsjlfjdlgøfgljflkhøjfdlhjfdkljfdlkøj');
+    displayResponse(document.createTextNode('Hei! dsfldsjlfjdlgøfgljflkhøjfdlhjfdkljfdlkøj'));
 }, 800);
 
