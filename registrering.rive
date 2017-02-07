@@ -1,7 +1,7 @@
 ! version = 2.0
 
 + [*]registrer[*] | [*]registrering[*] | [*]reggistrer[*]
-- Så du vil registrere deg i Digipost? La meg hjelpe deg! Du kan jo skrive litt forskjellige ting, eller bare begynne med å fortelle meg navnet ditt?
+- Så du vil registrere deg? Flott! Hva er navnet ditt?
 
 + [*]heter (* *)
 - Takk, jeg har nå notert navnet ditt: <star1>. Hva er e-post-adressen din?
@@ -10,10 +10,13 @@
 - Hmm, men det er jo bare fornavnet ditt, <star1>. Jeg trenger fullt navn!
 
 + [*] min[*]er (*@*) | (*@*)
-- Takk. Vi har nå tatt vare på e-post-adressen din. Det neste du trenger å legge inn er mobilnummeret ditt. Tast inn ditt mobilnummer, åtte siffer, eller begynn ev. med en landskode (eks. +46).
+- Takk. Vi har nå tatt vare på e-post-adressen din. Det neste du trenger å legge inn er mobilnummeret ditt, åtte siffer, eller begynn ev. med en landskode (eks. +46).
+
++ hvorfor[*]telefonnummer[*] | hvorfor[*]tlf[*] | hvorfor[*]mobil[*]
+- Vi bruker ditt telefonnummer for å sende deg viktig informasjon knyttet din digitale post.
 
 + [*] telefonnummer [*] | [*]mobilnummer[*] | [*]mobil[*] | [*]tlf[*] | #[*] | +#[*]
-- Takk. Vi bruker ditt telefonnummer for å sende deg viktig informasjon knyttet din digitale post. Da gjenstår det bare å godta Digipost sine vilkår. Vilkårene finner du <a href="https://www.digipost.no/juridisk/">her</a>. For å godta disse, skriv "Jeg godtar Digipost's vilkår".
+- Takk. Vi bruker ditt telefonnummer for å sende deg viktig informasjon knyttet din digitale post. Da gjenstår det bare å godta Digiposts <a href="https://www.digipost.no/juridisk/">vilkår</a>.
 
 + ikke[*]vilkår
 - Du må dessverre godta våre vilkår for å kunne opprette Digipost-konto.
@@ -21,7 +24,7 @@
 + hva[*]vilkår[*] | hva[*]vilkårene[*] | hva[*]vilkårene
 - Vilkårene finner du <a href="https://www.digipost.no/juridisk/">her</a>. For å godta disse, skriv "Jeg godtar Digipost's vilkår".
 
-+ [*]godta[*]vilkår[*]
++ [*]godta[*]vilkår[*] | [*]godta[*]vilkårene[*]
 - Flott. Da gjenstår det bare å opprette et passord for din Digipost-konto. Vennligst fortell meg et passord. Lover å ikke si det til noen.. Husk å begynne med "passord:".
 
 + [*] epost [*]
@@ -46,5 +49,5 @@ Kontakt banken din, og de hjelper deg med BankID.
 + [*]passord[*] | [*]passordet[*]
 - Takk. Vi har nå opprettet en Digipost-konto for deg. Er det OK om vi sender deg informasjon om nye produkter og tjenester også?
 
-+ [*]nei[*]|[*]ja[*]
++ [*]nei[*]|ja[*]send[*]
 - OK! Her kan du logge deg inn: <a href="https://digipost.no">Digipost.no</a>. Du må da også logge inn med BankID ved første innlogging, for å forsikre oss om at du er deg.
