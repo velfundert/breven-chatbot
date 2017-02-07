@@ -3,17 +3,32 @@ body {
     color: #4d4f53;
 }
 
-.message,
-.response {
-    padding: 1em;
-    border-radius: 19px;
-    background-color: #f1f1f1;
-    max-width: 80%;
+.breven {
     display: block;
-    margin: 0.1em;
+    width:  30px;
+    height: 30px;
+    background: center no-repeat url('breven.svg') #fff;
+    float: right;
+    vertical-align: top;
+    margin: 0.1em; 
+    margin-top: 0.7em;
 }
 
 .response {
+text-align: right;
+}
+
+.message,
+.response .text {
+    padding: 1em;
+    border-radius: 19px;
+    background-color: #f1f1f1;
+    max-width: 70%;
+    display: inline-block;
+    margin: 0.1em;
+}
+
+.response .text {
     color: #fff;
     background-color: #e22f26;
     text-align: right;

@@ -1,11 +1,15 @@
 function createMessageobj (messageNode) {
     var div = $('<div>');
+    div.addClass('text');
     div.html( messageNode );
-    return div;
+    var div2 = $('<div>');
+    div2.append(div);
+    return div2;
 }
 
 function displayResponse(message) {
     var div = createMessageobj(message);
+    div.append($('<div class="breven">'));
     div.addClass('response');
     $('#dialogue').append(div);
 }
