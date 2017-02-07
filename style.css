@@ -1,12 +1,13 @@
 body {
     font-family: sans-serif;
+    color: #4d4f53;
 }
 
 .message,
 .response {
     padding: 1em;
     border-radius: 19px;
-    background-color: #999;
+    background-color: #f1f1f1;
     max-width: 80%;
     display: block;
     margin: 0.1em;
@@ -14,7 +15,7 @@ body {
 
 .response {
     color: #fff;
-    background-color: #bb0000;
+    background-color: #e22f26;
     text-align: right;
     margin-left: 10%;
 }
