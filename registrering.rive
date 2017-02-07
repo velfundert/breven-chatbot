@@ -3,16 +3,16 @@
 + [*]registrer[*] | [*]registrering[*] | [*]reggistrer[*]
 - Så du vil registrere deg i Digipost? La meg hjelpe deg! Du kan jo skrive litt forskjellige ting, eller bare begynne med å fortelle meg navnet ditt?
 
-+ [*]heter (*)
-- Hmm, men det er jo bare fornavnet ditt, <star>. Jeg trenger fullt navn!
++ [*]heter (@namez)*
+- Hmm, men det er jo bare fornavnet ditt, <namez>. Jeg trenger fullt navn!
 
-+ [*]heter (* *)
-- Takk, jeg har nå notert navnet ditt: <star1>. Hva er e-post-adressen din?
++ [*]heter (@name1)* (@name2)*
+- Takk, jeg har nå notert navnet ditt: <name1> <name2>. Hva er e-post-adressen din?
 
 + [*] telefonnummer [*] | [*]mobilnummer[*] | [*]mobil[*] | #
 - Takk. Vi bruker ditt telefonnummer for å sende deg viktig informasjon knyttet din digitale post. Da gjenstår det bare å godta Digipost sine vilkår. Vilkårene finner du <a href="https://www.digipost.no/juridisk/">her</a>. For å godta disse, skriv "Jeg godtar Digipost's vilkår".
 
-+ [*] min[*]er (*\@*) | (*\@*)
++ [*] min[*]er (*\@*) | (*)@(*)
 - Takk. Vi har nå tatt vare på e-post-adressen din. Det neste du trenger å legge inn er mobilnummeret ditt. Tast inn ditt mobilnummer, åtte siffer, eller begynn ev. med en landskode (eks. +46).
 
 + ikke[*]vilkår
